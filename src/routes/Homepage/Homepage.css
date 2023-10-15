@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: #efefef;
 }
 
@@ -19,33 +18,16 @@
 #homepage .point-dot {
   position: relative;
   margin-bottom: 8px;
-
-  @media screen and (min-width: 600px) {
-    margin-bottom: inherit;
-    position: absolute;
-  }
 }
 
 #homepage .point-dot-green {
   width: 24px;
   height: auto;
-
-  @media screen and (min-width: 600px) {
-    bottom: -16px;
-    left: -16px;
-    transform: translate(-100%, 100%);
-  }
 }
 
 #homepage .point-dot-blue {
   width: 24px;
   height: auto;
-
-  @media screen and (min-width: 600px) {
-    top: -16px;
-    left: -16px;
-    transform: translate(-100%, -100%);
-  }
 }
 
 #homepage .point-dot-magenta {
@@ -53,14 +35,6 @@
   height: auto;
   margin-left: 8px;
   margin-right: 8px;
-
-  @media screen and (min-width: 600px) {
-    margin-left: inherit;
-    margin-right: inherit;
-    bottom: -16px;
-    right: -16px;
-    transform: translate(100%, 100%);
-  }
 }
 
 #homepage .wind-wheel-icon {
@@ -70,14 +44,6 @@
   height: auto;
   top: 0px;
   right: 0px;
-
-  @media screen and (min-width: 600px) {
-    width: 400px;
-  }
-
-  @media screen and (min-width: 900px) {
-    width: 450px;
-  }
 }
 
 #homepage .elephant-icon {
@@ -87,14 +53,6 @@
   height: auto;
   bottom: 0px;
   left: 0px;
-
-  @media screen and (min-width: 600px) {
-    width: 400px;
-  }
-
-  @media screen and (min-width: 900px) {
-    width: 450px;
-  }
 }
 
 #homepage .ux-thailand-conf {
@@ -104,14 +62,6 @@
   color: #303030;
   text-transform: uppercase;
   letter-spacing: 5px;
-
-  @media screen and (min-width: 600px) {
-    font-size: 36px;
-  }
-
-  @media screen and (min-width: 900px) {
-    font-size: 48px;
-  }
 }
 
 #homepage .coming-soon {
@@ -121,8 +71,61 @@
   color: #303030;
   margin-top: 16px;
   letter-spacing: 2px;
+}
 
-  @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
+  #homepage .point-dot {
+    margin-bottom: inherit;
+    position: absolute;
+  }
+
+  #homepage .point-dot-green {
+    bottom: -16px;
+    left: -16px;
+    transform: translate(-100%, 100%);
+  }
+
+  #homepage .point-dot-blue {
+    top: -16px;
+    left: -16px;
+    transform: translate(-100%, -100%);
+  }
+
+  #homepage .point-dot-magenta {
+    margin-left: inherit;
+    margin-right: inherit;
+    bottom: -16px;
+    right: -16px;
+    transform: translate(100%, 100%);
+  }
+
+  #homepage .wind-wheel-icon {
+    width: 400px;
+  }
+
+  #homepage .elephant-icon {
+    width: 400px;
+  }
+
+  #homepage .ux-thailand-conf {
+    font-size: 36px;
+  }
+
+  #homepage .coming-soon {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #homepage .wind-wheel-icon {
+    width: 450px;
+  }
+
+  #homepage .elephant-icon {
+    width: 450px;
+  }
+
+  #homepage .ux-thailand-conf {
+    font-size: 48px;
   }
 }

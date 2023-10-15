@@ -6,6 +6,8 @@
   padding: 16px;
   display: flex;
   justify-content: center;
+  background: #efefef;
+  backdrop-filter: blur(2px);
 }
 
 #navbar-section .uxth-logo {
@@ -19,4 +21,11 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
+}
+
+@media screen and (min-width: 600px) {
+  #navbar-section {
+    background-color: transparent;
+    backdrop-filter: inherit;
+  }
 }
