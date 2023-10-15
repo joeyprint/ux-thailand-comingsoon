@@ -12,32 +12,89 @@
   position: relative;
 }
 
+#homepage .dot-box {
+  display: flex;
+}
+
 #homepage .point-dot {
-  position: absolute;
+  position: relative;
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 600px) {
+    margin-bottom: inherit;
+    position: absolute;
+  }
 }
 
 #homepage .point-dot-green {
   width: 24px;
   height: auto;
-  bottom: -16px;
-  left: -16px;
-  transform: translate(-100%, 100%);
+
+  @media screen and (min-width: 600px) {
+    bottom: -16px;
+    left: -16px;
+    transform: translate(-100%, 100%);
+  }
 }
 
 #homepage .point-dot-blue {
   width: 24px;
   height: auto;
-  top: -16px;
-  left: -16px;
-  transform: translate(-100%, -100%);
+
+  @media screen and (min-width: 600px) {
+    top: -16px;
+    left: -16px;
+    transform: translate(-100%, -100%);
+  }
 }
 
 #homepage .point-dot-magenta {
   width: 24px;
   height: auto;
-  bottom: -16px;
-  right: -16px;
-  transform: translate(100%, 100%);
+  margin-left: 8px;
+  margin-right: 8px;
+
+  @media screen and (min-width: 600px) {
+    margin-left: inherit;
+    margin-right: inherit;
+    bottom: -16px;
+    right: -16px;
+    transform: translate(100%, 100%);
+  }
+}
+
+#homepage .wind-wheel-icon {
+  position: absolute;
+  z-index: 0;
+  width: 300px;
+  height: auto;
+  top: 0px;
+  right: 0px;
+
+  @media screen and (min-width: 600px) {
+    width: 400px;
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 450px;
+  }
+}
+
+#homepage .elephant-icon {
+  position: absolute;
+  z-index: 0;
+  width: 300px;
+  height: auto;
+  bottom: 0px;
+  left: 0px;
+
+  @media screen and (min-width: 600px) {
+    width: 400px;
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 450px;
+  }
 }
 
 #homepage .ux-thailand-conf {
