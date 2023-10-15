@@ -6,8 +6,9 @@
   padding: 16px;
   display: flex;
   justify-content: center;
-  background: #efefef;
+  background: hsla(0, 0%, 94%, 0.5);
   backdrop-filter: blur(2px);
+  z-index: 1100;
 }
 
 #navbar-section .uxth-logo {
