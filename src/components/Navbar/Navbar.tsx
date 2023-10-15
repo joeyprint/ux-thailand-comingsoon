@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className={'container'}>
         <img
           className={'uxth-logo'}
-          src={'/assets/images/UXTH Conference Logo.svg'}
+          src={'/assets/images/uxth-conference-logo.svg'}
         />
       </div>
     </div>
