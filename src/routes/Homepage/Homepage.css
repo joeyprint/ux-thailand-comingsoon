@@ -8,6 +8,38 @@
   background-color: #000000;
 }
 
+#homepage .title-section {
+  position: relative;
+}
+
+#homepage .point-dot {
+  position: absolute;
+}
+
+#homepage .point-dot-green {
+  width: 24px;
+  height: auto;
+  bottom: -16px;
+  left: -16px;
+  transform: translate(-100%, 100%);
+}
+
+#homepage .point-dot-blue {
+  width: 24px;
+  height: auto;
+  top: -16px;
+  left: -16px;
+  transform: translate(-100%, -100%);
+}
+
+#homepage .point-dot-magenta {
+  width: 24px;
+  height: auto;
+  bottom: -16px;
+  right: -16px;
+  transform: translate(100%, 100%);
+}
+
 #homepage .ux-thailand-conf {
   font-family: Manrope, sans-serif;
   font-size: 28px;
