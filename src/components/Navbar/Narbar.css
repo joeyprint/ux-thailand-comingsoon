@@ -1,0 +1,22 @@
+#navbar-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-section > .uxth-logo {
+  width: 150px;
+  height: auto;
+}
+
+#navbar-section > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
