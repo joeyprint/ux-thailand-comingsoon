@@ -8,12 +8,12 @@
   justify-content: center;
 }
 
-#navbar-section > .uxth-logo {
+#navbar-section .uxth-logo {
   width: 150px;
   height: auto;
 }
 
-#navbar-section > .container {
+#navbar-section .container {
   display: flex;
   justify-content: space-between;
   align-items: center;

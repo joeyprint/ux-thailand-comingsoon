@@ -8,7 +8,7 @@
   background-color: #000000;
 }
 
-.ux-thailand-conf {
+#homepage .ux-thailand-conf {
   font-family: Manrope, sans-serif;
   font-size: 28px;
   font-weight: 800;
@@ -25,7 +25,7 @@
   }
 }
 
-.coming-soon {
+#homepage .coming-soon {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
   font-weight: 300;
